@@ -1,0 +1,47 @@
+li{
+    /* padding: 5px 10px; */
+    
+
+        
+}
+
+nav{
+display: flex;
+justify-content: flex-end;
+}
+
+ul{
+    width:50%;
+    display: flex;
+    justify-content: space-around;
+background-color: lightgray;
+margin: 0;
+padding: 0;
+/* border: .2px yellow solid; */
+list-style: none;
+gap: 20px;
+}
+
+li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+li:hover{
+    background-color: blueviolet;
+   
+}
+
+li:hover a{
+    color: white;
+}
+
+
+
+@media screen and (max-width: 600px){
+    body{
+        background-color: yellow;
+    }
+    
+} 
